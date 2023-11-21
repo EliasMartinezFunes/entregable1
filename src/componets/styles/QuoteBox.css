@@ -4,21 +4,46 @@
     gap: 20px;
     justify-items: center;    
 }
+.quotebox__title{
+    text-align: center;
+    font-size: 30.431px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    -webkit-text-fill-color: #FFF;
+    -webkit-text-stroke: 1px #FFA645;
+}
 .quote__box{
     background: rgba(255, 255, 255, 0.70);
-    fill: #FFF;
-    stroke-width: 1.5px;
-    stroke: #6894B4;
+    width: 545px;
+    height: 138px;
+    flex-shrink: 0;
+    text-align: center;
+    color: #727272;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    
 }
 .quotebox__author{
     position: absolute;
     bottom: 10px;
     left: 50%;
     transform: translateX(-50%);
+    color: #727272;
     background: rgba(255, 255, 255, 0.70);
+    width: 245px;
+    height: 38px;
+    flex-shrink: 0;
 }
 .quotebox__btn{
     font-family: 'Fredoka One', sans-serif;
-    color: orangered;
+    border-radius: 7px;
+    border: 1.5px solid #893446;
+    background: #FFA645;
+    width: 168px;
+    height: 37px;
+    flex-shrink: 0;
     
 }
